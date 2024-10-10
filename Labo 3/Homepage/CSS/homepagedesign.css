@@ -1,0 +1,174 @@
+header{
+    width: 975px;
+    justify-content: center;
+    margin: auto;
+    background-color: #FF6B6B;
+}
+#headerimages{
+    height:118px;
+    display: flex;
+    position: absolute;
+}
+header h1{
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+header nav{
+    justify-content: center;
+    display: flex;
+    position: relative;
+
+}
+header nav ul{
+    list-style: none;
+}
+header nav li{
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+header nav li:hover{
+    color:red;
+    background-color: #FEFFE4 ;
+    border-radius: 25px;
+}
+header nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+body{
+    width:975px;
+    margin: auto;
+    background-color: #FEFFE4;
+}
+main{
+    font-size: 22px;
+}
+main article img{
+    width:100%;
+}
+main article a{
+    text-decoration: none;
+    color: black;
+}
+main article a:hover{
+    color: #FEFFE4;
+    background-color: #FF6B6B;
+    border-radius: 25px;
+    padding: 20px;
+}
+section{
+    padding-top: 50px;
+    width: 975px;
+    display: flex;
+    flex-wrap: wrap;
+}
+section img{
+    width:50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#Contact{
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    width: 60%;
+    margin-right: 250px;
+}
+#Contact p{
+    font-size: 20px;
+}
+aside{
+    position: relative;
+    display: inline-block;
+    width: 20%;
+}
+aside ul{
+    list-style: none;
+}
+aside li{
+    padding-top: 20px;
+    text-indent: -2.5em;
+}
+aside li a{
+    text-decoration: none;
+    color: red;
+}
+aside li a:hover{
+    color: black;
+    background-color: #FF6B6B;
+    padding:5px;
+    border-radius: 10px;
+}
+/*--------------------------------------------------------------------------------------*/
+/* Slideshow container */
+.slider {
+    flex:1;
+    position: relative;
+    width: 100%;              /* Volledige breedte gebruiken */
+    max-width: 100%;          /* Beperking om niet buiten het scherm te vallen */
+    height: auto;             /* Automatische hoogte zodat het zich aanpast */
+    /* overflow: hidden;         Verberg afbeeldingen die buiten de container vallen */
+    margin-top: 0px;
+    text-align: center;
+    box-sizing: border-box;    /* Inclusief padding en border in de berekening van breedte */
+    border-radius: 0px;
+}
+
+/* Afbeeldingen in de slideshow */
+.slides img {
+    width: 100%;              /* Afbeeldingen vullen de volledige breedte van de container */
+    height: auto;             /* Zorg ervoor dat de hoogte zich aanpast om de verhoudingen te behouden */
+    object-fit: contain;      /* Behoud de volledige afbeelding zonder te croppen */
+    image-rendering: auto;    /* Zorgt ervoor dat afbeeldingen goed gerenderd worden (voor scherpte) */
+}
+
+.slides img.active {
+    display: block;           /* Alleen de actieve afbeelding tonen */
+    margin: 0 auto;           /* Centreer de afbeelding in de container */
+}
+/* Slider als achtergrond */
+.slider-background {
+    position: absolute; /* Zorgt ervoor dat de slideshow zich over het hele scherm uitstrekt */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh; /* De slideshow vult de volledige schermhoogte */
+    z-index: -1; /* Zorgt ervoor dat de slider achter de content blijft */
+    overflow: hidden; /* Verbergt alle afbeeldingen buiten de container */
+}
+
+/* Afbeeldingen in de slideshow */
+.slides img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Laat de afbeelding de volledige breedte van de container innemen */
+    height: 100%; /* Laat de afbeelding de volledige hoogte van de container innemen */
+    object-fit: cover; /* Zorg ervoor dat de afbeelding het volledige gebied bedekt zonder vervorming */
+    opacity: 0; /* Standaard onzichtbaar */
+    animation: fade 15s infinite; /* Zorgt voor een fade-animatie en een oneindige lus */
+}
+
+/* Zorg ervoor dat de afbeeldingen na elkaar getoond worden */
+.slides img:nth-child(1) {
+    animation-delay: 3s;
+}
+.slides img:nth-child(2) {
+    animation-delay: 5s;
+}
+.slides img:nth-child(3) {
+    animation-delay: 10s;
+}
+
+/* Fade animatie voor de afbeeldingen */
+
+@keyframes fade {
+    0%, 100% { opacity: 0; }
+    20%, 33.33% { opacity: 1; }
+}
