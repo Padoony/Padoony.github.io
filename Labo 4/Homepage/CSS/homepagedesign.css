@@ -62,13 +62,13 @@ main article a:hover{
     border-radius: 25px;
     padding: 20px;
 }
-section{
+div{
     padding-top: 50px;
     width: 975px;
     display: flex;
     flex-wrap: wrap;
 }
-section img{
+div img{
     width:50%;
     display: flex;
     flex-wrap: wrap;
