@@ -1,0 +1,26 @@
+
+.icon-link {
+    background-image: url("Images/kingjulien.png");
+    background-position: left center;
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    padding-left: 22px;
+    text-decoration: none;
+    color: #0066cc;
+}
+
+.icon-link:hover {
+    color: #003366;
+    text-decoration: underline;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    font-size: 15px;
+}
+
+p {
+    margin-bottom: 1em;
+}
