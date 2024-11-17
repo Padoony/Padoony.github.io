@@ -1,0 +1,56 @@
+.calendar {
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.calendar caption {
+    background: rgb(170,170,200);
+    color: white;
+    font-size: 1.2em;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.calendar th {
+    background: rgb(35,37,70);
+    color: rgb(200,190,240);
+    padding: 8px;
+    text-align: center;
+}
+
+.calendar td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    background: rgb(200,255,255);
+}
+
+/* Weekends (eerste en laatste kolom) */
+.calendar td:first-child,
+.calendar td:last-child {
+    background: rgb(255, 220, 220);
+}
+
+/* Dagen uit vorige/volgende maand */
+.calendar td.other-month {
+    background: rgb(200,200,200);
+    color: rgb(100,100,100);
+}
+
+/* Speciale dag (16e) */
+.calendar td.special-day {
+    background: rgb(250,120,120);
+}
+
+/* Links in de kalender */
+.calendar a {
+    color: blue;
+    text-decoration: none;
+}
+
+.calendar a:hover {
+    text-decoration: underline;
+}
