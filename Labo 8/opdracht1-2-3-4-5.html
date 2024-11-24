@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Opdracht 1, 2, 3, 4 en 5</title>
+</head>
+<body>
+<h1>Opdrachten - labo 8</h1>
+<h2>Opdracht 1</h2>
+<p><strong>Voor welke waarden worden de opgegeven width en height genegeerd?</strong></p>
+<p>Het wordt genegeerd bij volgende code; display: inline </p>
+<p><strong>Voor welke waarden worden de elementen als woorden op een pagina gezet?</strong></p>
+<p>Elementen worden als woorden weergegeven bij display: inline</p>
+
+<h2>Opdracht 2</h2>
+<p>De lege ruimtes tussen de blokken komen door de standaard whitespace in de HTML. Bij inline-block wordt deze whitespace weergegeven als een kleine ruimte.</p>
+<p>Wanneer je het browservenster horizontaal resizet, worden de blokken opnieuw verdeeld omdat ze zich aanpassen aan de beschikbare breedte, waarbij elke regel start waar de vorige ophoudt.</p>
+
+<h2>Opdracht 3</h2>
+<p><strong>Waarom staat de tekst in de blokken horizontaal gecentreerd?</strong></p>
+<p>De tekst is horizontaal gecentreerd door de CSS-regel text-align: center; die op de div-elementen wordt toegepast.</p>
+<p><strong>Waarom heeft vertical-align: center geen effect?</strong></p>
+<p>vertical-align: center is geen geldige waarde; daarom wordt het genegeerd. Alleen specifieke waarden zoals baseline, middle, top, of bottom zijn toegestaan.</p>
+<p><strong>Wat doet vertical-align?</strong></p>
+<p>vertical-align werkt alleen op inline- of inline-block-elementen, of op cellen in een tabel.</p>
+<p>In het geval van blok-elementen zoals div, heeft vertical-align geen effect op de tekstpositie binnen het element.</p>
+<p><strong>Wat is de 'simpele' manier om één enkele regel tekst verticaal te centreren?</strong></p>
+<p>Gebruik line-height gelijk aan de hoogte van het element.</p>
+<p><strong>Welke truc wordt vaak gebruikt om meerdere regels verticaal te centreren?</strong></p>
+<p>De truc is om een element te laten gedragen als een tabelcel met</p>
+<p><strong>Waarom krijgt de regel voor class 'tall' voorrang?</strong></p>
+<p>De specifieke regel .area.tall heeft een hogere specificiteit dan een algemene regel zoals .tall. CSS gebruikt specificiteit om te bepalen welke regels voorrang krijgen.</p>
+
+<h2>Opdracht 4</h2>
+<p>Wanneer elementen 09, 12 en 14 de `floaty` class krijgen, schuiven ze naar links in hun regel door `float: left;`. Er blijft geen grote ruimte achter waar element 09 stond, omdat andere elementen (zoals 10) naar links opschuiven. Elementen 12 en 14 staan niet altijd naast elkaar, afhankelijk van de beschikbare ruimte. Er is geen ruimte tussen floaty-elementen en de rode elementen rechts ervan, maar wel tussen rode elementen onderling door whitespace in inline-block-elementen. Het toekennen van de `break` class aan element 17 heeft geen effect, omdat er geen gefloat elementen boven of ervoor zijn om te "clearen".</p>
+
+<h2>Opdracht 5</h2>
+</body>
+</html>
