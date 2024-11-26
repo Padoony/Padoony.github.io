@@ -51,6 +51,10 @@ section h2{
 .Specials h2{
     color: indianred;
 }
+.Specials a
+{
+    color: black;
+}
 .Specials a:hover{
     background-color: saddlebrown;
 }
