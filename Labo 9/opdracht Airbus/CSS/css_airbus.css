@@ -1,0 +1,97 @@
+body{
+    width: 95%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+header{
+    background-image: url("../images/bgsky3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+header h1{
+    font-size: 300%;
+    color: darkblue;
+}
+header h2{
+    color: darkblue;
+    font-size: 240%;
+}
+header img{
+    position: absolute;
+    right: 250px;
+    top: 60px;
+}
+aside{
+    width: 25%;
+    float:right;
+    text-align: left;
+    display: inline;
+    background-color:  #dddddd;
+    border: 1px solid #999999;
+    font-size: 90%;
+    color: #666666;
+    padding: 10px;
+}
+aside h3{
+    color: white;
+    background-color: blue;
+    text-align: center;
+    font-size: 120%;
+}
+main{
+    width: 75%;
+    padding-right: 10px;
+    display: block;
+    text-align: left;
+
+}
+#intro{
+    background-color: white;
+    color: black;
+    text-align: justify;
+    padding: 20px 30px 20px 0;
+}
+#logo-airbus{
+    float: left;
+    padding: 20px 20px 0 20px;
+}
+
+.foto{
+    width: 29.78%;
+    float: left;
+    margin:auto;
+    background-color: #999999;
+    padding: 20px;
+}
+.foto img{
+    width: 180px;
+    height: 180px;
+    padding: 10px;
+    border: 2px dotted  #999999;
+    background-color: white;
+}
+footer{
+    background-color: #666666;
+    color: white;
+    line-height: 2em;
+    margin-top:744px;
+    width: 100%;
+    text-align: left;
+}
+footer  div{
+    display: inline-block;
+    margin-left:250px;
+}
+footer a{
+    color: white;
+}
+footer a:hover{
+    color:red;
+}
+#copyright{
+    text-align: center;
+    background-color: white;
+
+}

@@ -1,0 +1,15 @@
+article {
+    overflow: hidden;
+    margin: 10px;
+    font-size: 1.25em;
+}
+article img {
+    max-width: 40%;
+    margin: 0 10px;
+}
+article:nth-of-type(odd) img {
+    float: left;
+}
+article:nth-of-type(even) img {
+    float: right;
+}
