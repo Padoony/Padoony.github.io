@@ -1,0 +1,8 @@
+body{
+    margin: 0;
+}
+.col-md-4, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md {
+    background-color: lightblue;
+    box-sizing: border-box;
+    border: 2px solid red;
+}
